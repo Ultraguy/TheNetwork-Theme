@@ -1,0 +1,66 @@
+body{background:url('https://i.imgur.com/hYjaoXr.jpg') rgba(0,0,0,0);}
+.theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .chat, .channels-Ie2l6A, .guilds-wrapper, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .theme-dark .typing-2GQL18,
+.theme-dark .members-1998pB, .theme-dark .chat>.content, .theme-dark .title-3qD0b-, .container-PNkimc, .channels-Ie2l6A, #app-mount, .theme-dark .chat form, .container-2Thooq, .theme-dark .headerBar-UHpsPw,
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span, .theme-dark #friends
+{
+    background:rgba(0,0,0,.2) !important;
+}
+.avatar-large {
+    display: none;
+}
+.message-group.hide-overflow {
+    margin-left: 1.5em;
+    padding-left: 1em;
+    border-left: #2fb 3px solid;
+}
+.message-group.hide-overflow:nth-child(even){
+    background-color: rgba(0,0,0,.5);
+    /*2f3136*/
+}
+.message-group.hide-overflow:nth-child(odd){
+    background-color: rgba(30,30,30,.5);
+    /*2f3136*/
+}
+.scroller-2FKFPG.members-woa1998pB {
+    background-color: #676767;
+}
+.guild.unread{
+    filter: grayscale(100%) drop-shadow(1px 1px 4px red);
+    
+} 
+.channel.selected.private {
+    background-color: teal;
+    transition: all 0.5s ease;
+
+}
+
+.private-channels .channel:hover a {
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.guild.unread::before{
+    display: none;
+}
+.theme-dark .membersGroup-v9BXpm {
+    font-size: 14px;
+    color: #ffffaa;
+}
+.botTagRegular-2HEhHi {
+    background-color: #333;
+    color: white;
+    border-radius: 0px;
+}
+.botTagRegular-2HEhHi:hover {
+    filter: invert();
+}
+.theme-dark .memberOnline-1CIh-0:nth-child(even) {
+    background-color: rgba(30,30,30,.5);
+
+}
+.theme-dark .inner-zqa7da {
+    background-color: rgba(10,10,10,.7);
+}
+.theme-dark .textArea-2Spzkt {
+    color: lime;
+}
